@@ -7,11 +7,14 @@ Nexus Network CLI 证明器的Linux内存优化版本。
 
 ## 安装
 
-### 1. 安装Rust环境（有的话直接第2步）
+### 1. 安装Rust环境和c编译器（有的话直接第2步）
 ```bash
 # 安装Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source ~/.bashrc
+#安装c编译器
+sudo apt update
+sudo apt install build-essential
 ```
 
 ### 2. 克隆并编译
